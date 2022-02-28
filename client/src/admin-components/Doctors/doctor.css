@@ -1,0 +1,55 @@
+.list {
+    font-size: 3em;
+    color: #00A473;
+    margin-bottom: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+    font-weight: 700;
+    padding-top: 10px;
+    vertical-align: middle;
+    font-size: 1.1rem;
+}
+
+th {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 8px;
+    box-sizing: border-box;
+    min-width: 7rem;
+    font-weight: 800;
+    color: #88A7C1;
+    border-bottom: 3px solid #88A7C1;
+    text-transform: capitalize;
+}
+
+th button {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #88A7C1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.del {
+    border: none;
+    padding: 10px;
+    background-color: #88A7C1;
+    color: white;
+    font-weight: 700;
+    border-radius: 10%;
+}
+
+.healthdeclare-container {
+    width: 100%;
+    /* overflow-x: scroll; */
+}
+

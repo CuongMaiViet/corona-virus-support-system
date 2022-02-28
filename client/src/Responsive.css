@@ -1,0 +1,306 @@
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 13px;
+    }
+    .button {
+        font-size: 1.6rem;
+        padding: 1.2rem 2rem;
+    }
+    .button.small {
+        font-size: 1.2rem;
+    }
+    label {
+        font-size: 1.2rem !important;
+        margin-bottom: 0.5rem !important;
+        display: inline-block;
+    }
+    /*HOMPAGE*/
+    /*Navbar*/
+    .nav-container {
+        flex-flow: column wrap;
+        width: 100vw;
+        max-width: 100vw;
+        margin: 0 0 2rem 0;
+        max-height: 3rem;
+    }
+    .nav-container a {
+        text-align: center;
+        font-size: 1.8rem;
+        width: 80%;
+    }
+    .nav-container > * {
+        width: 100%;
+        flex-basis: 100%;
+    }
+    .nav-container .logo-container {
+        justify-content: space-between;
+    }
+    .nav-container .logo {
+        width: 60%;
+        padding: 1rem;
+    }
+    .nav-container .menu {
+        flex-flow: column wrap;
+    }
+    .nav-container .button-container {
+        flex-flow: column wrap;
+        margin-top: 2rem;
+    }
+    .nav-container .button-container #register {
+        margin-left: 0;
+        margin-top: 0.8rem;
+    }
+    .nav-container .hamburger {
+        display: block;
+    }
+    .nav-container .hamburger-close {
+        display: block;
+    }
+    .nav-container .menu.desktop,
+    .nav-container .button-container.desktop {
+        display: none;
+    }
+    /*Homepage Content*/
+    .homepage-container {
+        flex-flow: column nowrap;
+    }
+    .homepage-container .text-container {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0 1.5rem;
+        margin-top: 14rem;
+    }
+    .homepage-container .text-container * {
+        line-height: 130%;
+        margin-bottom: 2.5rem;
+    }
+    .homepage-container .text-container {
+        text-align: center;
+    }
+    .homepage-container .text-container .text2.mobile {
+        display: block;
+    }
+    .homepage-container .text-container .text2 {
+        font-size: 2.4rem;
+    }
+    .homepage-container .text-container a {
+        margin: auto;
+        width: 80%;
+        font-size: 1.6rem;
+    }
+    .homepage-container .text-container .text3 {
+        font-weight: 600;
+        color: #5c6872;
+        font-size: 1.6rem;
+    }
+    .homepage-container .text-container .text2.desktop {
+        display: none;
+    }
+    .homepage-container .image-container {
+        width: 150vw;
+        position: absolute;
+        z-index: -10;
+        display: flex;
+        justify-content: center;
+    }
+    .homepage-container .image-container img {
+        height: 100vh;
+        margin: auto;
+        opacity: 0.2;
+    }
+    /*Login*/
+    .login-portal {
+        max-width: 80%;
+        width: 80%;
+        margin: auto;
+    }
+    .login-container {
+        width: 80%;
+    }
+    /*Dashboard Layout*/
+    .dashboard-container .main-container {
+        padding: 1.5rem;
+        width: 100vw;
+        max-width: 100vw;
+    }
+    .dashboard-container .spacer {
+        display: none;
+    }
+    .dashboard-container .heading-container {
+        justify-content: space-between;
+        align-items: center;
+        height: 10rem;
+        max-height: 10rem;
+    }
+    .dashboard-container .heading-container h1 {
+        font-size: 2rem;
+    }
+    .dashboard-container .heading-container .heading-icon {
+        height: 3rem;
+    }
+    .dashboard-container .heading-container .menu {
+        height: 4rem;
+        display: block;
+        cursor: pointer;
+    }
+    /*Sidebar*/
+    .sidebar-container {
+        width: 100vw;
+        max-width: 100vw;
+        min-width: 100vw;
+        transition: 0.4s ease;
+        transform: translateX(-110%);
+    }
+    .sidebar-container .item {
+        height: 10rem;
+        max-height: 10rem;
+    }
+    .sidebar-container .item.top {
+        justify-content: space-between;
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+    .sidebar-container .item.top .close {
+        display: block;
+    }
+    .sidebar-container .logo {
+        width: 50%;
+        max-width: 20rem;
+    }
+    .sidebar-container .menu-container .menu-item {
+        padding: 0;
+        justify-content: center;
+        height: 10rem;
+    }
+    .sidebar-container .menu-container .menu-item img {
+        height: 3rem;
+    }
+    .sidebar-container .menu-container .menu-item a h2 {
+        font-size: 1.5rem;
+    }
+    .sidebar-container #logout {
+        font-size: 1.5rem;
+    }
+    /*Dashboard Main*/
+    .dashboardmain-container .header {
+        text-align: center;
+        line-height: 120%;
+    }
+    .dashboardmain-container .profilepicture-container {
+        margin: auto;
+        width: 30rem;
+        padding: 50%;
+        height: 0;
+        max-height: 0;
+        max-width: 100%;
+        border-radius: 2rem;
+    }
+    .dashboardmain-container .button {
+        width: 100%;
+    }
+    .dashboardinput-container * {
+        margin-left: 0;
+    }
+    .dashboardinput-container > div {
+        flex-basis: 100% !important;
+    }
+    /*Patient List*/
+    .filter,
+    .filter-section {
+        flex-flow: column nowrap;
+    }
+    .filter div,
+    .filter-section div {
+        flex-basis: 100%;
+        width: 100%;
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    .search label,
+    .filterring label,
+    .filter-section .filter-by-status label {
+        flex-basis: 20%;
+    }
+    .search input,
+    .filterring select,
+    .filter-section .filter-by-status select {
+        flex: 1;
+    }
+    .paginate * {
+        flex: 1;
+    }
+    .paginate button {
+        flex-basis: 40%;
+    }
+    /*Modal Popup*/
+    .modal-content {
+        width: 90%;
+        padding: 1.5rem;
+    }
+    .modal-content .symptoms > p {
+        flex-basis: 40%;
+        font-size: 1.2rem;
+        line-height: 115%;
+        margin-bottom: 1rem;
+    }
+    /*Prescriptioning*/
+    .fieldbig label,
+    .fieldbig input {
+        display: block;
+    }
+    .fieldbig select,
+    .medicine-controller select {
+        width: 100%;
+    }
+    .medicine-controller {
+        flex-flow: column;
+    }
+    .medicine-controller > * {
+        flex-basis: 100% !important;
+    }
+    .dashboardcheckbox-container input {
+        padding: 0.5rem;
+    }
+    .patient-addhealth .dashboardtextarea {
+        margin-top: 1rem;
+    }
+    .doctor-container {
+        height: 12rem;
+        flex-basis: 90%;
+    }
+    .doctor-container .info-container {
+        flex-basis: 45%;
+    }
+    .doctor-container .picture-container {
+        flex-basis: 40%;
+    }
+    .doctor-container > .picture-container > div {
+        height: 10rem;
+        width: 10rem;
+        background-size: 110% 110%;
+        border: 5px solid #ffffff;
+    }
+    .doctor-container .info-container h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.3rem;
+    }
+    .doctor-container .info-container h1 {
+        font-size: 1.7rem;
+    }
+    #savemedicineform {
+        margin-left: 0;
+    }
+    .home-container {
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 1156px) {
+    .healthdeclare-container {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .patients-container {
+        width: 100%;
+        overflow-x: scroll;
+    }
+}
